@@ -3,7 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kamakhya Guest House</title>
+
+<!-- ✅ SEO TITLE -->
+<title>Kamakhya Guest House near Temple | Budget Rooms in Guwahati</title>
+
+<!-- ✅ SEO META TAGS -->
+<meta name="description" content="Best guest house near Kamakhya Temple, Guwahati. Affordable AC & non-AC rooms. Book now via WhatsApp.">
+<meta name="keywords" content="Kamakhya guest house, hotel near Kamakhya temple, rooms in Guwahati, budget hotel Kamakhya">
+<meta name="author" content="Kamakhya Guest House">
+
+<!-- ✅ SOCIAL SHARE (WHATSAPP / FACEBOOK) -->
+<meta property="og:title" content="Kamakhya Guest House">
+<meta property="og:description" content="Affordable rooms near Kamakhya Temple. Book now!">
+<meta property="og:type" content="website">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
@@ -133,79 +145,47 @@ text-align:center;
 <h2>🛏 Room Details</h2>
 
 <div class="rooms">
-
 <div class="room-card"><h3>Single Bed</h3><p>Common Bathroom</p><div class="price">₹500 / ₹600</div></div>
-
 <div class="room-card"><h3>Triple Bed</h3><p>Common Bathroom</p><div class="price">₹1200</div></div>
-
 <div class="room-card"><h3>Double Bed Small</h3><div class="price">₹1000</div></div>
-
 <div class="room-card"><h3>Double Bed Medium</h3><div class="price">₹1200</div></div>
-
 <div class="room-card"><h3>Double Bed AC</h3><div class="price">₹1500</div></div>
-
 <div class="room-card"><h3>Double Bed AC Deluxe (L)</h3><div class="price">₹2000</div></div>
-
 <div class="room-card"><h3>Double Bed AC Deluxe (S)</h3><div class="price">₹1800</div></div>
-
 <div class="room-card"><h3>Triple Bed</h3><div class="price">₹1500</div></div>
-
 <div class="room-card"><h3>Triple Bed AC</h3><div class="price">₹2000</div></div>
-
 <div class="room-card"><h3>Four Bed</h3><div class="price">₹1800</div></div>
-
 <div class="room-card"><h3>Four Bed AC</h3><div class="price">₹2300</div></div>
-
 <div class="room-card"><h3>Five Bed</h3><div class="price">₹2000</div></div>
-
 <div class="room-card"><h3>Five Bed AC</h3><div class="price">₹2500</div></div>
-
 </div>
 </section>
 
 <!-- GALLERY -->
 <section class="section">
-<h2>📸 Gallery</h2>
-
-<section class="section">
 <h2>📸 Our Real Rooms</h2>
 
 <div class="gallery">
-<img src="/static/images/room1.jpg">
-<img src="/static/images/room2.jpg">
-<img src="/static/images/room3.jpg">
-<img src="/static/images/room4.jpg">
+<img src="{{ url_for('static', filename='images/room1.jpg') }}">
+<img src="{{ url_for('static', filename='images/room2.jpg') }}">
+<img src="{{ url_for('static', filename='images/room3.jpg') }}">
+<img src="{{ url_for('static', filename='images/room4.jpg') }}">
 </div>
 </section>
 
+<!-- REVIEWS -->
 <section class="section">
 <h2>⭐ Customer Reviews</h2>
 
 <div class="rooms">
-
-<div class="room-card">
-<p>“Very clean rooms and near temple 🙏”</p>
-<h4>- Rahul</h4>
+<div class="room-card"><p>“Very clean rooms and near temple 🙏”</p><h4>- Rahul</h4></div>
+<div class="room-card"><p>“Budget friendly and great service 👍”</p><h4>- Priya</h4></div>
+<div class="room-card"><p>“Best stay near station!”</p><h4>- Amit</h4></div>
 </div>
-
-<div class="room-card">
-<p>“Budget friendly and great service 👍”</p>
-<h4>- Priya</h4>
-</div>
-
-<div class="room-card">
-<p>“Best stay near station!”</p>
-<h4>- Amit</h4>
-</div>
-
-</div>
-
-<br>
 
 <a href="https://maps.app.goo.gl/x8LeWh9RTNvPE8pVA" target="_blank">
 <button class="btn">⭐ View All Reviews on Google</button>
 </a>
-
 </section>
 
 <!-- RULES -->
@@ -215,8 +195,8 @@ text-align:center;
 <ul class="rules">
 <li>Checkout Time: 10 AM</li>
 <li>Booking Non Refundable (Date change allowed)</li>
-<li>No Fooding (Nearby restaurants available)</li>
-<li>Valid ID Required (Aadhar / DL / Passport)</li>
+<li>No Fooding</li>
+<li>Valid ID Required</li>
 <li>PAN Card Not Accepted</li>
 <li>Unmarried Couples Not Allowed</li>
 <li>Hot Water & TV only in AC / Deluxe Rooms</li>
