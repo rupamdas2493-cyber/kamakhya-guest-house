@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamakhya Guest House</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body{background:#0f172a;color:white;}
+
+/* HERO */
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1566073771259-6a8506099945');
+background-size:cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{font-size:40px;color:#facc15;}
+.hero p{margin-top:10px;}
+
+.btn{
+margin:10px;
+padding:12px 25px;
+background:#38bdf8;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.section{padding:60px 20px;text-align:center;}
+.section h2{color:#38bdf8;margin-bottom:20px;}
+
+/* ROOMS */
+.rooms{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.room-card{
+background:rgba(255,255,255,0.05);
+padding:15px;
+border-radius:12px;
+width:260px;
+}
+
+.price{color:#facc15;}
+
+/* GALLERY */
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.gallery img{
+width:260px;
+height:180px;
+border-radius:10px;
+object-fit:cover;
+}
+
+/* RULES */
+.rules{
+max-width:700px;
+margin:auto;
+text-align:left;
+}
+
+.rules li{
+margin:10px 0;
+padding:10px;
+background:rgba(255,255,255,0.05);
+border-radius:8px;
+}
+
+/* CONTACT */
+.links a{
+display:block;
+margin:10px;
+color:#38bdf8;
+text-decoration:none;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+}
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+<div>
+<h1>🛕 KAMAKHYA Guest House</h1>
+<p>Maligaon Chariali, Below Pillar No. 5</p>
+<p>800 mtrs from Station | 4.6 kms from Temple</p>
+
+<a href="tel:+918761862521"><button class="btn">📞 Call</button></a>
+<a href="https://wa.me/918761862521"><button class="btn">💬 WhatsApp</button></a>
+</div>
+</section>
+
+<!-- ROOMS -->
+<section class="section">
+<h2>🛏 Room Details</h2>
+
+<div class="rooms">
+
+<div class="room-card"><h3>Single Bed</h3><p>Common Bathroom</p><div class="price">₹500 / ₹600</div></div>
+
+<div class="room-card"><h3>Triple Bed</h3><p>Common Bathroom</p><div class="price">₹1200</div></div>
+
+<div class="room-card"><h3>Double Bed Small</h3><div class="price">₹1000</div></div>
+
+<div class="room-card"><h3>Double Bed Medium</h3><div class="price">₹1200</div></div>
+
+<div class="room-card"><h3>Double Bed AC</h3><div class="price">₹1500</div></div>
+
+<div class="room-card"><h3>Double Bed AC Deluxe (L)</h3><div class="price">₹2000</div></div>
+
+<div class="room-card"><h3>Double Bed AC Deluxe (S)</h3><div class="price">₹1800</div></div>
+
+<div class="room-card"><h3>Triple Bed</h3><div class="price">₹1500</div></div>
+
+<div class="room-card"><h3>Triple Bed AC</h3><div class="price">₹2000</div></div>
+
+<div class="room-card"><h3>Four Bed</h3><div class="price">₹1800</div></div>
+
+<div class="room-card"><h3>Four Bed AC</h3><div class="price">₹2300</div></div>
+
+<div class="room-card"><h3>Five Bed</h3><div class="price">₹2000</div></div>
+
+<div class="room-card"><h3>Five Bed AC</h3><div class="price">₹2500</div></div>
+
+</div>
+</section>
+
+<!-- GALLERY -->
+<section class="section">
+<h2>📸 Gallery</h2>
+
+<section class="section">
+<h2>📸 Our Real Rooms</h2>
+
+<div class="gallery">
+<img src="/static/images/room1.jpg">
+<img src="/static/images/room2.jpg">
+<img src="/static/images/room3.jpg">
+<img src="/static/images/room4.jpg">
+</div>
+</section>
+
+<section class="section">
+<h2>⭐ Customer Reviews</h2>
+
+<div class="rooms">
+
+<div class="room-card">
+<p>“Very clean rooms and near temple 🙏”</p>
+<h4>- Rahul</h4>
+</div>
+
+<div class="room-card">
+<p>“Budget friendly and great service 👍”</p>
+<h4>- Priya</h4>
+</div>
+
+<div class="room-card">
+<p>“Best stay near station!”</p>
+<h4>- Amit</h4>
+</div>
+
+</div>
+
+<br>
+
+<a href="https://maps.app.goo.gl/x8LeWh9RTNvPE8pVA" target="_blank">
+<button class="btn">⭐ View All Reviews on Google</button>
+</a>
+
+</section>
+
+<!-- RULES -->
+<section class="section">
+<h2>📜 Rules</h2>
+
+<ul class="rules">
+<li>Checkout Time: 10 AM</li>
+<li>Booking Non Refundable (Date change allowed)</li>
+<li>No Fooding (Nearby restaurants available)</li>
+<li>Valid ID Required (Aadhar / DL / Passport)</li>
+<li>PAN Card Not Accepted</li>
+<li>Unmarried Couples Not Allowed</li>
+<li>Hot Water & TV only in AC / Deluxe Rooms</li>
+<li>Payment via QR only</li>
+<li>Discount only for online booking</li>
+<li>Minimum booking ₹1000</li>
+</ul>
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+<h2>📞 Contact</h2>
+
+<p>Reception: +91 7896860210</p>
+
+<div class="links">
+<a href="https://maps.app.goo.gl/x8LeWh9RTNvPE8pVA">📍 Google Map</a>
+<a href="https://www.instagram.com/kamakhya_guwahati_travels">📸 Instagram</a>
+</div>
+</section>
+
+<footer>
+© 2026 Kamakhya Guest House
+</footer>
+
+<a href="https://wa.me/918761862521" class="whatsapp-float">💬</a>
+
+</body>
+</html>
